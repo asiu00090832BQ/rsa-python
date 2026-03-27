@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsa-python"
+version = "0.1.0"
+description = "A high-integrity pure-Python RSA implementation."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "asiu00090832BQ" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
